@@ -279,30 +279,102 @@ li.dropdown {
    
    <center><img src= "sup.jpg"></img></center>
    
-   <section>
-   <h1>Urban Outfitters</h1>
-<p> A great store for Millenials and GenZ'ers looking for chic street ready outfits. Sales are often offered and they have a lit year round fully stocked clearance section. ($$-$$$)</p>
-   <a href="https://www.urbanoutfitters.com/">Visit Urban</a> 
-   </section>
-   <hr>
+ <head>
 
-<h1>L Train Thrift Stores</h1>
-<p>Probably the best chain of thrift stores New York City has to offer. If your looking for chic cheap vintage or trying to lessen your carbon footprint these are the stores to go to. ($-$$)</p>
-<a href="https://ltrainvintage.com/">Visit L Train Vintage</a> 
-   <hr>
+<style>
 
-<h1>Brandy Melville</h1>
-<p> The best store for cute basics and assecories. Their tube tops are a must! ($$)</p>
-<a href="http://www.brandymelvilleusa.com/">Visit Brandy</a> 
-   <hr>
-   
-<h1>Forever 21</h1>
-<p> All around cheap! Great for people on a budget. They have everything from shoes to bras- and all great quality! ($-$$)</p>
-<a href="https://www.forever21.com/us/shop">Visit Forever 21</a>
-   <hr>
-   
-<h1>H&M</h1>
-   <p>Their Divided section is a go to! ($-$$)</p>
-   <a href="http://www.hm.com/us/">Visit H&M</a>
+.container {
+
+    position: relative;
+
+    width: 50%;
+
+}
+
+
+
+.image {
+
+  opacity: 1;
+
+  display: block;
+
+  width: 200%;
+
+  height: auto;
+
+  transition: .5s ease;
+
+  backface-visibility: hidden;
+
+}
+
+
+
+.middle {
+
+  transition: .5s ease;
+
+  opacity: 0;
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  -ms-transform: translate(-50%, -50%)
+
+}
+
+
+
+.container:hover .image {
+
+  opacity: 0.3;
+
+}
+
+
+
+.container:hover .middle {
+
+  opacity: 1;
+
+}
+
+
+
+.text {
+
+  background-color: black;
+
+  color: white;
+
+  font-size: 20px;
+
+  padding: 8px 16px;
+
+}
+
+</style>
+
+</head>
+
+
+
+<div class="container">
+
+  <img src="uo.jpg" alt="Avatar" class="image" style="width:100%">
+
+  <div class="middle">
+
+    <div class="text">Visit Urban</div>
+
+  </div>
+
+</div>
 </body>
 </html>

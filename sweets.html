@@ -141,3 +141,467 @@ li.dropdown {
 </html>
 <html>
 <head>
+     
+     <!DOCTYPE html>
+<html>
+<!-- Background Image !-->
+
+<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+
+<header>
+   <img src= "https://ibin.co/3WWAE1AtF9OO.png">
+
+<head>
+
+<style>
+
+ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    border: 1px solid #e7e7e7;
+
+    background-color: #f3f3f3;
+
+}
+
+
+
+li {
+
+    float: left;
+
+}
+
+
+
+li a {
+
+    display: block;
+
+    color: #666;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+}
+
+
+
+li a:hover:not(.active) {
+
+    background-color: #dd;
+
+}
+
+
+
+li a.active {
+
+    color: white;
+
+    background-color: #4CAF50;
+
+}
+
+
+
+<ul>
+
+  <li><a class="active" href="#home">Home</a></li>
+
+  <li><a href="#news">News</a></li>
+
+  <li><a href="#contact">Contact</a></li>
+
+  <li><a href="#about">About</a></li>
+
+</ul>
+
+
+
+
+
+li {
+
+    float: left;
+
+}
+
+
+
+li a, .dropbtn {
+
+    display: inline-block;
+
+    color: black;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+}
+
+
+
+li a:hover, .dropdown:hover .dropbtn {
+
+    background-color: ;
+
+}
+
+
+
+li.dropdown {
+
+    display: inline-block
+
+}
+
+
+
+
+
+.dropdown-content {
+
+    display: none;
+
+    position: absolute;    background-color: #f9f9f9;
+
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+
+
+  z-index: 1;
+
+}
+
+
+
+.dropdown-content a {
+
+    color: black;
+
+    padding: 12px 16px;
+
+    text-decoration: none;
+
+    display: block;
+
+     text-align: left;}
+
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+
+.dropdown:hover .dropdown-content {
+
+    display: block;}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<ul>
+
+
+
+  <li class="dropdown">
+
+    <a href="javascript:void(0)" class="dropbtn">Home</a>
+
+
+
+  </li>
+
+    <li class="dropdown">
+
+    <a href="javascript:void(0)" class="dropbtn">Food</a>
+
+    <div class="dropdown-content">
+
+      <a href="https://kimdonii.github.io/hotspot/restaurants.html">Restaurants</a>
+
+      <a href="https://kimdonii.github.io/hotspot/sweets.html">Sweets</a>
+
+      <a href="https://kimdonii.github.io/hotspot/drinks.html">Drinks</a></a>
+
+      <a href="https://kimdonii.github.io/hotspot/veggie.html">Vegan and Vegetarian Friendly</a>
+
+    </div>
+
+  </li>
+
+    <li class="dropdown">
+
+    <a href="javascript:void(0)" class="dropbtn">Concerts</a>
+
+    <div class="dropdown-content">
+
+      <a href="https://kimdonii.github.io/hotspot/trendingartists.html">Artists to Look For</a>
+
+      <a href="https://kimdonii.github.io/hotspot/showtimes.html">Showtimes</a>
+
+    </div>
+
+  </li>
+
+    <li class="dropdown">
+
+    <a href="javascript:void(0)" class="dropbtn">Shopping</a>
+
+    <div class="dropdown-content">
+
+      <a href="https://kimdonii.github.io/hotspot/stores.html">Stores</a>
+
+      <a href="https://kimdonii.github.io/hotspot/sales.html">Sales</a>
+
+      <a href="https://kimdonii.github.io/hotspot/streetfashion.html">Street Fashion to Look For</a>
+
+    </div>
+
+  </li>
+
+</ul>
+
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<!-- Image Link Styles !-->
+
+<style type="text/css">
+
+/* Sweets Image Style */
+.gallery-cake {
+     width:300px;
+     height:200px;
+     position: relative;
+     	float: left;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+        font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+        font-size: 40px;
+	}
+
+  .gallery-image-cake{
+  	float: left;
+    cursor:pointer;
+    position: relative;
+    display: block;
+  }
+
+  .gallery-text-cake{
+      position: absolute;
+      top: 0;
+	  float: left;
+      width: 300px;
+      height: 200px;
+      text-align: center;
+      background-color: rgba(233,208,104, 0.9);
+      opacity: 0;
+      -webkit-transition: opacity 0.6s;
+      -moz-transition: opacity 0.6s;
+      transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:200px;
+  }
+
+  .gallery-text-cake:hover{
+  		float: left;
+      opacity: 1;
+  }
+
+
+  	.gallery-text-cake h3{
+  	    color: white;
+  	    display: inline-table;
+         vertical-align:middle;
+         line-height:100%;
+  	}
+
+  /* Cookies Image Style */
+  .gallery-cookies {
+       width:300px;
+       height:200px;
+       position: relative;
+  		padding: 0;
+  		margin: auto;
+  		text-align: center;
+        font-family: 'Cookie', cursive;
+        font-size: 40px;
+  	}
+
+    	.gallery-image-cookies{
+        position: absolute;
+        top: -37px;
+		cursor:pointer;
+		position: relative;
+		display: block;
+	}
+
+  .gallery-text-cookies{
+  		position: absolute;
+	    width: 300px;
+	    height: 200px;
+        top: 0;
+	    text-align: center;
+	    background-color: rgba(45, 26, 11, 0.9);
+	    opacity: 0;
+	    -webkit-transition: opacity 0.6s;
+	    -moz-transition: opacity 0.6s;
+	    transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:200px;
+	}
+
+
+
+	.gallery-text-cookies:hover{
+	    opacity: 1;
+	}
+
+
+	.gallery-text-cookies h3{
+       color: white;
+	    display: inline-table;
+       vertical-align:middle;
+       line-height:100%;
+	}
+
+/* Ice Cream Image Style */
+
+  .gallery-icecream h3{
+       width:300px;
+       height:200px;
+       float: right;
+       position: relative;
+  		padding: 0;
+  		margin: 0;
+  		text-align: center;
+        font-family: Dancing Script;
+        font-style: bold;
+        font-size: 40px;
+  	}
+
+    .gallery-image-icecream {
+        position: absolute;
+        top: -237px;
+		float: right;
+		cursor:pointer;
+		position: relative;
+		display: block;
+	}
+
+  .gallery-text-icecream {
+	    position: absolute;
+        top: 0;
+		float: right;
+	    width: 300px;
+	    height: 200px;
+	    text-align: center;
+	    background-color: rgba(255, 192, 203, 0.9);
+	    opacity: 0;
+	    -webkit-transition: opacity 0.6s;
+	    -moz-transition: opacity 0.6s;
+	    transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:200px;
+	}
+
+
+
+	.gallery-text-icecream:hover {
+	    opacity: 1;
+	}
+
+
+	.gallery-text-icecream h3{
+    	position: relative;
+        float: right;
+        top: 80px;
+       color: white;
+	    display: inline-table;
+       vertical-align:middle;
+       line-height:100%;
+	}
+
+</style>
+
+<!-- Header Image Topline !-->
+<hr size="15" color="#000000">
+<center><img src = "https://ibin.co/3WWE4ExfqxGg.jpg" width="1000" height="600" align="middle"></center>
+</img>
+<!-- Header Image Bottomline !-->
+<hr size="15" color="#000000">
+</header>
+<body>
+<!-- "Sweets" Heading !-->
+<h2 style="background-color:#ffffff;"><center><font color="#bed1d8" face="Palatino" size="48"> Sweets</font></center><br></h2>
+<br>
+
+<!-- Cake Link Image !-->
+
+<div class="gallery-cake">
+<div class="gallery-image-cake">
+  <img src="https://ibin.co/3WWIPN8uO1Kh.jpg" width="300" height="200" />
+
+<div class="gallery-text-cake">
+
+<h3>Cake</h3>
+
+</div>
+</div>
+</div>
+
+<br>
+<br>
+
+<!-- Cookies Link Image !-->
+
+<div class="gallery-cookies">
+<div class="gallery-image-cookies">
+<img src="https://ibin.co/3WWIvqKBotGh.jpg" width="300" height="200">
+
+<div class="gallery-text-cookies">
+
+<h3>Cookies</h3>
+
+</div>
+</div>
+</div>
+
+<!-- Ice Cream Link Image !-->
+
+<div class="gallery-icecream">
+<div class="gallery-image-icecream">
+<img src="https://ibin.co/3WWTBCsKsebc.jpg" width="300" height="200">
+
+<div class="gallery-text-icecream">
+
+<h3>Ice Cream</h3>
+
+</body>
+</html>
+

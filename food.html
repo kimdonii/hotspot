@@ -1,1 +1,511 @@
+<!DOCTYPE html>
+<html>
+<!-- Background Image !-->
+<header>
+
+
+   <img src= "https://ibin.co/3WWAE1AtF9OO.png">
+
+<head>
+
+<style>
+
+ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    border: 1px solid #e7e7e7;
+
+    background-color: #f3f3f3;
+
+}
+
+
+
+li {
+
+    float: left;
+
+}
+
+
+
+li a {
+
+    display: block;
+
+    color: #666;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+}
+
+
+
+li a:hover:not(.active) {
+
+    background-color: #dd;
+
+}
+
+
+
+li a.active {
+
+    color: white;
+
+    background-color: #4CAF50;
+
+}
+
+
+
+
+
+li {
+
+    float: left;
+
+}
+
+
+
+li a, .dropbtn {
+
+    display: inline-block;
+
+    color: black;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+}
+
+
+
+li a:hover, .dropdown:hover .dropbtn {
+
+    background-color: ;
+
+}
+
+
+
+li.dropdown {
+
+    display: inline-block
+
+}
+
+
+
+
+
+.dropdown-content {
+
+    display: none;
+
+    position: absolute;    background-color: #f9f9f9;
+
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+
+
+  z-index: 1;
+
+}
+
+
+
+.dropdown-content a {
+
+    color: black;
+
+    padding: 12px 16px;
+
+    text-decoration: none;
+
+    display: block;
+
+     text-align: left;}
+
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+
+.dropdown:hover .dropdown-content {
+
+    display: block;}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<ul>
+
+
+
+  <li class="dropdown">
+
+    <a href="javascript:void(0)" class="dropbtn">Home</a>
+
+
+
+  </li>
+
+    <li class="dropdown">
+
+    <a href="javascript:void(0)" class="dropbtn">Food</a>
+
+    <div class="dropdown-content">
+
+      <a href="https://kimdonii.github.io/hotspot/restaurants.html">Restaurants</a>
+
+      <a href="https://kimdonii.github.io/hotspot/sweets.html">Sweets</a>
+
+      <a href="https://kimdonii.github.io/hotspot/drinks.html">Drinks</a></a>
+
+      <a href="https://kimdonii.github.io/hotspot/veggie.html">Vegan and Vegetarian Friendly</a>
+
+    </div>
+
+  </li>
+
+    <li class="dropdown">
+
+    <a href="javascript:void(0)" class="dropbtn">Concerts</a>
+
+    <div class="dropdown-content">
+
+      <a href="https://kimdonii.github.io/hotspot/trendingartists.html">Artists to Look For</a>
+
+      <a href="https://kimdonii.github.io/hotspot/showtimes.html">Showtimes</a>
+
+    </div>
+
+  </li>
+
+    <li class="dropdown">
+
+    <a href="javascript:void(0)" class="dropbtn">Shopping</a>
+
+    <div class="dropdown-content">
+
+      <a href="https://kimdonii.github.io/hotspot/stores.html">Stores</a>
+
+      <a href="https://kimdonii.github.io/hotspot/sales.html">Sales</a>
+
+      <a href="https://kimdonii.github.io/hotspot/streetfashion.html">Street Fashion to Look For</a>
+
+    </div>
+
+  </li>
+
+</ul>
+
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<!-- Header Image Topline !-->
+<hr size="15" color="#000000">
+<center><img src = "https://ibin.co/3WIDEdWrayZB.jpg" width="900" height="600" align="middle"></center>
+</img>
+<!-- Header Image Bottomline !-->
+<hr size="15" color="#000000">
+</header>
+<body>
+<!-- "What are you hungry for?" Heading !-->
+<h2 style="background-color:#ffffff;"><center><font color="#D42B35" face="Verdana" size="48"> What are you hungry for?</font></center><br></h2>
+<br>
+
+<!-- Image Link Styles !-->
+
+<style type="text/css">
+
+/* Sweets Image Style */
+.gallery-sweets {
+     width:300px;
+     height:200px;
+     position: relative;
+     	float: left;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+        font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+        font-size: 40px;
+	}
+
+  .gallery-image-sweets{
+  	float: left;
+    cursor:pointer;
+    position: relative;
+    display: block;
+  }
+
+  .gallery-text-sweets{
+      position: absolute;
+      top: 0;
+	  float: left;
+      width: 300px;
+      height: 200px;
+      text-align: center;
+      background-color: rgba(255, 180, 220, 0.9);
+      opacity: 0;
+      -webkit-transition: opacity 0.6s;
+      -moz-transition: opacity 0.6s;
+      transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:200px;
+  }
+
+  .gallery-text-sweets:hover{
+  		float: left;
+      opacity: 1;
+  }
+
+
+  	.gallery-text-sweets h3{
+  	    color: white;
+  	    display: inline-table;
+         vertical-align:middle;
+         line-height:100%;
+  	}
+
+  /* Drink Image Style */
+  .gallery-drinks {
+       width:300px;
+       height:200px;
+       position: relative;
+  		padding: 0;
+  		margin: auto;
+  		text-align: center;
+          font-family: "Brush Script MT",cursive;
+          font-style: italic;
+          font-size: 28px;
+  	}
+
+    	.gallery-image-drinks{
+        position: absolute;
+        top: -37px;
+		cursor:pointer;
+		position: relative;
+		display: block;
+	}
+
+  .gallery-text-drinks{
+  		position: absolute;
+	    width: 300px;
+	    height: 200px;
+        top: 0;
+	    text-align: center;
+	    background-color: rgba(255, 50, 70, 0.8);
+	    opacity: 0;
+	    -webkit-transition: opacity 0.6s;
+	    -moz-transition: opacity 0.6s;
+	    transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:200px;
+	}
+
+
+
+	.gallery-text-drinks:hover{
+	    opacity: 1;
+	}
+
+
+	.gallery-text-drinks h3{
+       color: white;
+	    display: inline-table;
+       vertical-align:middle;
+       line-height:100%;
+	}
+
+/* Restaurants Image Style */
+
+  .gallery-restaurants h3{
+       width:300px;
+       height:200px;
+       float: right;
+       position: relative;
+  		padding: 0;
+  		margin: 0;
+  		text-align: center;
+          font-family: "Lucida Bright",Georgia,serif;
+          font-style: italic;
+          font-size: 30px;
+  	}
+
+    .gallery-image-restaurants {
+        position: absolute;
+        top: -237px;
+		float: right;
+		cursor:pointer;
+		position: relative;
+		display: block;
+	}
+
+  .gallery-text-restaurants {
+	    position: absolute;
+        top: 0;
+		float: right;
+	    width: 300px;
+	    height: 200px;
+	    text-align: center;
+	    background-color: rgba(186, 92, 0, 0.9);
+	    opacity: 0;
+	    -webkit-transition: opacity 0.6s;
+	    -moz-transition: opacity 0.6s;
+	    transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:200px;
+	}
+
+
+
+	.gallery-text-restaurants:hover {
+	    opacity: 1;
+	}
+
+
+	.gallery-text-restaurants h3{
+    	position: relative;
+        float: right;
+        top: 80px;
+       color: white;
+	    display: inline-table;
+       vertical-align:middle;
+       line-height:100%;
+	}
+
+    /* Veggie Image Style
+
+    .gallery-veggie {
+     width: 300px;
+     height: 200px;
+     position: relative;
+     float: left;
+	 padding: 0;
+	 margin: 0;
+	 text-align: center;
+     font-family: Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+     font-size: 15px;
+	}
+
+  .gallery-image-veggie{
+    cursor:pointer;
+    position: relative;
+    float: left;
+    display: block;
+  }
+
+  .gallery-text-veggie{
+      position: absolute;
+      top: 0;
+      width: 300px;
+      height: 200px;
+      text-align: center;
+      background-color: rgba(34,139,34, 0.9);
+      opacity: 0;
+      -webkit-transition: opacity 0.6s;
+      -moz-transition: opacity 0.6s;
+      transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:200px;
+  }
+
+  .gallery-text-veggie:hover{
+      opacity: 1;
+  }
+
+
+  	.gallery-text-veggie h3{
+  	    color: white;
+  	    display: inline-table;
+         vertical-align:middle;
+         line-height:100%;
+  	}
+*/
+</style>
+
+<!-- Sweets Link Image !-->
+
+<div class="gallery-sweets">
+<div class="gallery-image-sweets">
+  <img src="https://ibin.co/3WIKXye8Rs9z.jpg" width="300" height="200" />
+
+<div class="gallery-text-sweets">
+
+<h3>Sweets</h3>
+
+</div>
+</div>
+</div>
+
+<br>
+<br>
+
+<!-- Drinks Link Image !-->
+
+<div class="gallery-drinks">
+<div class="gallery-image-drinks">
+<img src="https://ibin.co/3WJFUqpIUbqG.png" width="300" height="200">
+
+<div class="gallery-text-drinks">
+
+<h3>Drinks</h3>
+
+</div>
+</div>
+</div>
+
+<!-- Restaurants Link Image !-->
+
+<div class="gallery-restaurants">
+<div class="gallery-image-restaurants">
+<img src="https://ibin.co/3WPW7xyve68V.jpg" width="300" height="200">
+
+<div class="gallery-text-restaurants">
+
+<h3>Restaurants</h3>
+
+<!-- Vegan/Vegetarian Friendly Link Image
+<br>
+<br>
+<div class="gallery-veggie">
+<div class="gallery-image-veggie">
+<img src="https://ibin.co/3WQhdj2blJNd.jpg" width="300" height="200">
+
+<div class="gallery-text-veggie">
+
+<h3>Vegan/Vegetarian Friendly</h3>
+
+</div>
+</div>
+</div>
+
+!-->
+</body>
+</html>
 

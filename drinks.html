@@ -6,6 +6,10 @@
 
 <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
+
 <header>
    <img src= "https://ibin.co/3WWAE1AtF9OO.png">
 
@@ -70,24 +74,6 @@ li a.active {
     background-color: #4CAF50;
 
 }
-
-
-
-<ul>
-
-  <li><a class="active" href="#home">Home</a></li>
-
-  <li><a href="#news">News</a></li>
-
-  <li><a href="#contact">Contact</a></li>
-
-  <li><a href="#about">About</a></li>
-
-</ul>
-
-
-
-
 
 li {
 
@@ -241,15 +227,15 @@ li.dropdown {
 
 </ul>
 
-        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
 <!-- Image Link Styles !-->
 
 <style type="text/css">
 
-/* Casual Dining Image Style */
-.gallery-casual {
+/* Smoothies Image Style */
+.gallery-smoothies {
      width:300px;
      height:200px;
      position: relative;
@@ -257,18 +243,18 @@ li.dropdown {
 		padding: 0;
 		margin: 0;
 		text-align: center;
-        font-family: Copperplate,"Copperplate Gothic Light",fantasy;
-        font-size: 40px;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 28px;
 	}
 
-  .gallery-image-casual{
+  .gallery-image-smoothies{
   	float: left;
     cursor:pointer;
     position: relative;
     display: block;
   }
 
-  .gallery-text-casual{
+  .gallery-text-smoothies{
       position: absolute;
       top: 0;
 	  float: left;
@@ -284,21 +270,21 @@ li.dropdown {
        line-height:200px;
   }
 
-  .gallery-text-casual:hover{
+  .gallery-text-smoothies:hover{
   		float: left;
       opacity: 1;
   }
 
 
-  	.gallery-text-casual h3{
+   .gallery-text-smoothies h3{
   	    color: white;
   	    display: inline-table;
          vertical-align:middle;
          line-height:100%;
   	}
 
-  /* Fancy Shmancy Image Style */
-  .gallery-fancy {
+  /* Tea Image Style */
+  .gallery-tea {
        width:300px;
        height:200px;
        position: relative;
@@ -309,7 +295,7 @@ li.dropdown {
         font-size: 40px;
   	}
 
-    	.gallery-image-fancy{
+    	.gallery-image-tea{
         position: absolute;
         top: -37px;
 		cursor:pointer;
@@ -317,65 +303,11 @@ li.dropdown {
 		display: block;
 	}
 
-  .gallery-text-fancy{
+  .gallery-text-tea{
   		position: absolute;
 	    width: 300px;
 	    height: 200px;
         top: 0;
-	    text-align: center;
-	    background-color: rgba(45, 26, 11, 0.9);
-	    opacity: 0;
-	    -webkit-transition: opacity 0.6s;
-	    -moz-transition: opacity 0.6s;
-	    transition: opacity 0.6s;
-       vertical-align:middle;
-       line-height:200px;
-	}
-
-
-
-	.gallery-text-fancy:hover{
-	    opacity: 1;
-	}
-
-
-	.gallery-text-fancy h3{
-       color: white;
-	    display: inline-table;
-       vertical-align:middle;
-       line-height:100%;
-	}
-
-/* Quick Bites Image Style */
-
-  .gallery-quickbites h3{
-       width:300px;
-       height:200px;
-       float: right;
-       position: relative;
-  		padding: 0;
-  		margin: 0;
-  		text-align: center;
-        font-family: 'Sedgwick Ave Display', cursive;
-        font-style: bold;
-        font-size: 30px;
-  	}
-
-    .gallery-image-quickbites {
-        position: absolute;
-        top: -237px;
-		float: right;
-		cursor:pointer;
-		position: relative;
-		display: block;
-	}
-
-  .gallery-text-quickbites {
-	    position: absolute;
-        top: 0;
-		float: right;
-	    width: 300px;
-	    height: 200px;
 	    text-align: center;
 	    background-color: rgba(75, 83, 32, 0.9);
 	    opacity: 0;
@@ -388,15 +320,69 @@ li.dropdown {
 
 
 
-	.gallery-text-quickbites:hover {
+	.gallery-text-tea:hover{
 	    opacity: 1;
 	}
 
 
-	.gallery-text-quickbites h3{
+	.gallery-text-tea h3{
+       color: white;
+	    display: inline-table;
+       vertical-align:middle;
+       line-height:100%;
+	}
+
+/* Coffee Image Style */
+
+  .gallery-coffee h3{
+       width:300px;
+       height:200px;
+       float: right;
+       position: relative;
+  		padding: 0;
+  		margin: 0;
+  		text-align: center;
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-style: bold;
+        font-size: 30px;
+  	}
+
+    .gallery-image-coffee {
+        position: absolute;
+        top: -237px;
+		float: right;
+		cursor:pointer;
+		position: relative;
+		display: block;
+	}
+
+  .gallery-text-coffee {
+	    position: absolute;
+        top: 0;
+		float: right;
+	    width: 300px;
+	    height: 200px;
+	    text-align: center;
+	    background-color: rgba(45, 26, 11, 0.9);
+	    opacity: 0;
+	    -webkit-transition: opacity 0.6s;
+	    -moz-transition: opacity 0.6s;
+	    transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:200px;
+	}
+
+
+
+	.gallery-text-coffee:hover {
+	    opacity: 1;
+	}
+
+
+	.gallery-text-coffee h3{
     	position: relative;
         float: right;
-        top: 80px;
+        top: 90px;
        color: white;
 	    display: inline-table;
        vertical-align:middle;
@@ -407,25 +393,25 @@ li.dropdown {
 
 <!-- Header Image Topline !-->
 <hr size="15" color="#000000">
-<center><img src = "https://ibin.co/3WXK9jyOSPex.jpg" width="1000" height="600" align="middle"></center>
+<center><img src = "https://ibin.co/3WqpBXwev40o.jpg" width="1000" height="600" align="middle"></center>
 </img>
 <!-- Header Image Bottomline !-->
 <hr size="15" color="#000000">
 </header>
 <body>
-<!-- "Restaurants" Heading !-->
-<h2 style="background-color:#ffffff;"><center><font color="#CFB53B" face="Georgia" size="48"> Restaurants</font></center><br></h2>
+<!-- "Drinks" Heading !-->
+<h2 style="background-color:#ffffff;font-family: 'Lily Script One', cursive;"><center><font color="#CFB53B" size="48"> Drinks</font></center><br></h2>
 <br>
 
 <!-- Casual Dining Link Image !-->
 
-<div class="gallery-casual">
-<div class="gallery-image-casual">
-  <img src="https://ibin.co/3WXVvhqt5woe.jpg" width="300" height="200" />
+<div class="gallery-smoothies">
+<div class="gallery-image-smoothies">
+  <img src="https://ibin.co/3Wr41xuVvTwS.jpg" width="300" height="200" />
 
-<div class="gallery-text-casual">
+<div class="gallery-text-smoothies">
 
-<h3>Casual Dining</h3>
+<h3>Smoothies</h3>
 
 </div>
 </div>
@@ -434,29 +420,29 @@ li.dropdown {
 <br>
 <br>
 
-<!-- Fancy Shmancy Link Image !-->
+<!-- Tea Link Image !-->
 
-<div class="gallery-fancy">
-<div class="gallery-image-fancy">
-<img src="https://ibin.co/3WXN0lgbpI6y.jpg" width="300" height="200">
+<div class="gallery-tea">
+<div class="gallery-image-tea">
+<img src="https://ibin.co/3Wqx62bhjnns.jpg" width="300" height="200">
 
-<div class="gallery-text-fancy">
+<div class="gallery-text-tea">
 
-<h3>Fancy Shmancy</h3>
+<h3>Tea</h3>
 
 </div>
 </div>
 </div>
 
-<!-- Quick Bites Link Image !-->
+<!-- Coffee Link Image !-->
 
-<div class="gallery-quickbites">
-<div class="gallery-image-quickbites">
-<img src="https://ibin.co/3WXPCGqj0AVs.jpg" width="300" height="200">
+<div class="gallery-coffee">
+<div class="gallery-image-coffee">
+<img src="https://ibin.co/3Wqw9LOSuvp1.jpg" width="300" height="200">
 
-<div class="gallery-text-quickbites">
+<div class="gallery-text-coffee">
 
-<h3>Quick Bites (Fast Food) </h3>
+<h3>Coffee / Cafés</h3>
 
 </body>
 </html>
